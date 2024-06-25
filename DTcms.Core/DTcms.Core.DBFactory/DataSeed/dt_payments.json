@@ -1,0 +1,46 @@
+﻿[
+  {
+    "Id": 1,
+    "Title": "线下",
+    "ImgUrl": null,
+    "Remark": null,
+    "Type": 0,
+    "PayUrl": null,
+    "NotifyUrl": null,
+    "SortId": 99,
+    "Status": 0
+  },
+  {
+    "Id": 2,
+    "Title": "余额",
+    "ImgUrl": null,
+    "Remark": "使用预存款扣款",
+    "Type": 1,
+    "PayUrl": "/balancepay",
+    "NotifyUrl": null,
+    "SortId": 99,
+    "Status": 0
+  },
+  {
+    "Id": 3,
+    "Title": "微信",
+    "ImgUrl": null,
+    "Remark": "欢迎使用微信支付",
+    "Type": 2,
+    "PayUrl": "/wechatpay/",
+    "NotifyUrl": "/wechatpay/notify",
+    "SortId": 99,
+    "Status": 0
+  },
+  {
+    "Id": 4,
+    "Title": "支付宝",
+    "ImgUrl": null,
+    "Remark": "推荐使用支付宝支付",
+    "Type": 3,
+    "PayUrl": "/alipay/",
+    "NotifyUrl": "/alipay/notify",
+    "SortId": 99,
+    "Status": 0
+  }
+]

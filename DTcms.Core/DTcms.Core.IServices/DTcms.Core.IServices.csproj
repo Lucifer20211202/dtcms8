@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Product>DTcms.Core</Product>
+	<Company>DTsoft</Company>
+	<Authors>DTcms</Authors>
+	<Copyright>Copyright 2009 - 2024 dtcms.net. All Rights Reserved.</Copyright>
+	<AssemblyVersion>8.0.0.0</AssemblyVersion>
+	<FileVersion>8.0.0.0</FileVersion>
+	<Version>8.0.1</Version>
+	<Description>DTcms.Core 数据访问层接口类库</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DTcms.Core.Common\DTcms.Core.Common.csproj" />
+    <ProjectReference Include="..\DTcms.Core.Model\DTcms.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

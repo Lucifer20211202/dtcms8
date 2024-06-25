@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "D:/动力启航/DTcms.Core/公开版/8.0/DTcms.Web/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "D:/动力启航/DTcms.Core/公开版/8.0/DTcms.Web/node_modules/nuxt/dist/app/entry.js"
+  }
+}

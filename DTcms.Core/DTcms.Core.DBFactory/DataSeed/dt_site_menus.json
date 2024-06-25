@@ -1,0 +1,71 @@
+﻿[
+  {
+    "Id": 1,
+    "ParentId": 0,
+    "Title": "默认站点",
+    "SortId": 99,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:01"
+  },
+  {
+    "Id": 2,
+    "ParentId": 1,
+    "Title": "首页",
+    "LinkUrl": "/",
+    "SortId": 99,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:02"
+  },
+  {
+    "Id": 3,
+    "ParentId": 1,
+    "Title": "新闻资讯",
+    "LinkUrl": "/news",
+    "SortId": 99,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:03"
+  },
+  {
+    "Id": 4,
+    "ParentId": 1,
+    "Title": "图片分享",
+    "LinkUrl": "/photo",
+    "SortId": 100,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:04"
+  },
+  {
+    "Id": 5,
+    "ParentId": 1,
+    "Title": "视频中心",
+    "LinkUrl": "/video",
+    "SortId": 100,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:05"
+  },
+  {
+    "Id": 6,
+    "ParentId": 1,
+    "Title": "资源下载",
+    "LinkUrl": "/down",
+    "SortId": 100,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:06"
+  },
+  {
+    "Id": 7,
+    "ParentId": 1,
+    "Title": "购物商城",
+    "LinkUrl": "/shop",
+    "SortId": 99,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:07"
+  }
+]

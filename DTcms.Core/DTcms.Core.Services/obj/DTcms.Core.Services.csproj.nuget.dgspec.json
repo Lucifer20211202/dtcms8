@@ -1,0 +1,473 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Services\\DTcms.Core.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj": {
+      "version": "8.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj",
+        "projectName": "DTcms.Core.Common",
+        "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\xiekai\\.nuget\\packages\\",
+        "outputPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xiekai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AlibabaCloud.SDK.Dysmsapi20170525": {
+              "target": "Package",
+              "version": "[2.0.24, )"
+            },
+            "Aliyun.OSS.SDK.NetCore": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "FluentFTP": {
+              "target": "Package",
+              "version": "[50.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.1.34, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "QRCoderNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Qiniu.Shared": {
+              "target": "Package",
+              "version": "[7.2.15, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.6, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.33, )"
+            },
+            "TencentCloudSDK.Sms": {
+              "target": "Package",
+              "version": "[3.0.996, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.DBFactory\\DTcms.Core.DBFactory.csproj": {
+      "version": "8.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.DBFactory\\DTcms.Core.DBFactory.csproj",
+        "projectName": "DTcms.Core.DBFactory",
+        "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.DBFactory\\DTcms.Core.DBFactory.csproj",
+        "packagesPath": "C:\\Users\\xiekai\\.nuget\\packages\\",
+        "outputPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.DBFactory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xiekai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj"
+              },
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.21.121, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0-beta.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.IServices\\DTcms.Core.IServices.csproj": {
+      "version": "8.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.IServices\\DTcms.Core.IServices.csproj",
+        "projectName": "DTcms.Core.IServices",
+        "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.IServices\\DTcms.Core.IServices.csproj",
+        "packagesPath": "C:\\Users\\xiekai\\.nuget\\packages\\",
+        "outputPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.IServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xiekai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj"
+              },
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj": {
+      "version": "8.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj",
+        "projectName": "DTcms.Core.Model",
+        "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj",
+        "packagesPath": "C:\\Users\\xiekai\\.nuget\\packages\\",
+        "outputPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xiekai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Services\\DTcms.Core.Services.csproj": {
+      "version": "8.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Services\\DTcms.Core.Services.csproj",
+        "projectName": "DTcms.Core.Services",
+        "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Services\\DTcms.Core.Services.csproj",
+        "packagesPath": "C:\\Users\\xiekai\\.nuget\\packages\\",
+        "outputPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xiekai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Common\\DTcms.Core.Common.csproj"
+              },
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.DBFactory\\DTcms.Core.DBFactory.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.DBFactory\\DTcms.Core.DBFactory.csproj"
+              },
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.IServices\\DTcms.Core.IServices.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.IServices\\DTcms.Core.IServices.csproj"
+              },
+              "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj": {
+                "projectPath": "D:\\动力启航\\DTcms.Core\\公开版\\8.0\\DTcms.Core\\DTcms.Core.Model\\DTcms.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.57, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

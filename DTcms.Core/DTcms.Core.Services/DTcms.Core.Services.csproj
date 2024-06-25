@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Product>DTcms.Core</Product>
+	<Company>DTsoft</Company>
+	<Authors>DTcms</Authors>
+	<Copyright>Copyright 2009 - 2024 dtcms.net. All Rights Reserved.</Copyright>
+	<AssemblyVersion>8.0.0.0</AssemblyVersion>
+	<FileVersion>8.0.0.0</FileVersion>
+	<Version>8.0.0</Version>
+	<Description>DTcms.Core 数据访问层接口实现类库</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.57" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DTcms.Core.Common\DTcms.Core.Common.csproj" />
+    <ProjectReference Include="..\DTcms.Core.DBFactory\DTcms.Core.DBFactory.csproj" />
+    <ProjectReference Include="..\DTcms.Core.IServices\DTcms.Core.IServices.csproj" />
+    <ProjectReference Include="..\DTcms.Core.Model\DTcms.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

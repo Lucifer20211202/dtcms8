@@ -1,0 +1,67 @@
+﻿[
+  {
+    "Id": 1,
+    "ParentId": 0,
+    "NavType": "Channel",
+    "Name": "manage",
+    "Nitle": "频道管理",
+    "Controller": "Article",
+    "Resource": "Show",
+    "SortId": "99"
+  },
+  {
+    "Id": 2,
+    "ParentId": 1,
+    "NavType": "Channel",
+    "Name": "article",
+    "Title": "内容管理",
+    "LinkUrl": "/article/list",
+    "Controller": "Article",
+    "Resource": "Show,View,Add,Edit,Audit,Delete",
+    "SortId": "99"
+  },
+  {
+    "Id": 3,
+    "ParentId": 1,
+    "NavType": "Channel",
+    "Name": "ategory",
+    "Title": "栏目类别",
+    "LinkUrl": "/article/category/list",
+    "Controller": "ArticleCategory",
+    "Resource": "Show,View,Add,Edit,Delete",
+    "SortId": "101"
+  },
+  {
+    "Id": 5,
+    "ParentId": 1,
+    "NavType": "Channel",
+    "Name": "label",
+    "Title": "标签管理",
+    "LinkUrl": "/article/label/list",
+    "Controller": "ArticleLabel",
+    "Resource": "Show,View,Add,Edit,Delete",
+    "SortId": "105"
+  },
+  {
+    "Id": 6,
+    "ParentId": 1,
+    "NavType": "Channel",
+    "Name": "comment",
+    "Title": "评论管理",
+    "LinkUrl": "/article/comment/list",
+    "Controller": "ArticleComment",
+    "Resource": "Show,View,Add,Edit,Delete",
+    "SortId": "107"
+  },
+  {
+    "Id": 7,
+    "ParentId": 1,
+    "NavType": "Channel",
+    "Name": "contribute",
+    "Title": "投稿管理",
+    "LinkUrl": "/article/contribute/list",
+    "Controller": "ArticleContribute",
+    "Resource": "Show,View,Add,Edit,Delete",
+    "SortId": "109"
+  }
+]

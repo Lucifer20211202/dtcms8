@@ -1,0 +1,72 @@
+﻿[
+  {
+    "Id": 1,
+    "SiteId": 1,
+    "Name": "news",
+    "Title": "新闻资讯",
+    "IsComment": 1,
+    "IsAlbum": 0,
+    "IsAttach": 0,
+    "IsContribute": 1,
+    "SortId": 99,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:01"
+  },
+  {
+    "Id": 2,
+    "SiteId": 1,
+    "Name": "photo",
+    "Title": "图片分享",
+    "IsComment": 1,
+    "IsAlbum": 1,
+    "IsAttach": 0,
+    "IsContribute": 1,
+    "SortId": 100,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:02"
+  },
+  {
+    "Id": 3,
+    "SiteId": 1,
+    "Name": "video",
+    "Title": "视频中心",
+    "IsComment": 1,
+    "IsAlbum": 0,
+    "IsAttach": 0,
+    "IsContribute": 1,
+    "SortId": 101,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:03"
+  },
+  {
+    "Id": 4,
+    "SiteId": 1,
+    "Name": "down",
+    "Title": "资源下载",
+    "IsComment": 1,
+    "IsAlbum": 0,
+    "IsAttach": 1,
+    "IsContribute": 1,
+    "SortId": 102,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:04"
+  },
+  {
+    "Id": 5,
+    "SiteId": 1,
+    "Name": "content",
+    "Title": "公司介绍",
+    "IsComment": 0,
+    "IsAlbum": 0,
+    "IsAttach": 0,
+    "IsContribute": 0,
+    "SortId": 103,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-06-23 00:00:05"
+  }
+]

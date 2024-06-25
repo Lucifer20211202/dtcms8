@@ -1,0 +1,198 @@
+{
+  "id": "1844559",
+  "name": "DTcmsCore",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7366414",
+      "name": "财务",
+      "font_class": "purse-full",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "7712194",
+      "name": "订单",
+      "font_class": "order-full",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "13972587",
+      "name": "在线技术交易系统",
+      "font_class": "trade-full",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "21009408",
+      "name": "导航-财务管理",
+      "font_class": "finance-full",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "2480676",
+      "name": "报表中心",
+      "font_class": "stats-full",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "17209719",
+      "name": "商城",
+      "font_class": "shop-full",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "103741",
+      "name": "add",
+      "font_class": "close",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "802922",
+      "name": "减号",
+      "font_class": "open",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "142708",
+      "name": "arrow",
+      "font_class": "arrow-down",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "895254",
+      "name": "Folder",
+      "font_class": "folder-empty",
+      "unicode": "e857",
+      "unicode_decimal": 59479
+    },
+    {
+      "icon_id": "1063205",
+      "name": "列表",
+      "font_class": "file-empty",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "1341631",
+      "name": "arrow",
+      "font_class": "arrow-up",
+      "unicode": "e858",
+      "unicode_decimal": 59480
+    },
+    {
+      "icon_id": "172575",
+      "name": "file",
+      "font_class": "file",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "679861",
+      "name": "68 Folder hower",
+      "font_class": "folder",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "58574",
+      "name": "设置",
+      "font_class": "setting-full",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "137256",
+      "name": "收款方式",
+      "font_class": "pay-full",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "226455",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e783",
+      "unicode_decimal": 59267
+    },
+    {
+      "icon_id": "489712",
+      "name": "user",
+      "font_class": "user-full",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1094605",
+      "name": "下载名不虚传插件",
+      "font_class": "plugin-full",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "14945681",
+      "name": "箭头右",
+      "font_class": "d-arrow-up",
+      "unicode": "e85d",
+      "unicode_decimal": 59485
+    },
+    {
+      "icon_id": "1110430",
+      "name": "箭头右",
+      "font_class": "d-arrow-down",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "1136607",
+      "name": "list",
+      "font_class": "list-txt",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "1220010",
+      "name": "置顶",
+      "font_class": "top",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1265287",
+      "name": "应急站点",
+      "font_class": "home-full",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "1336625",
+      "name": "应用",
+      "font_class": "list-img",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "919238",
+      "name": "密码",
+      "font_class": "pwd",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "2196725",
+      "name": "退出",
+      "font_class": "exit",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    }
+  ]
+}

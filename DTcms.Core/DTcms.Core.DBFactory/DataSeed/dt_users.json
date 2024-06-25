@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": 1,
+    "UserName": "admin",
+    "NormalizedUserName": "ADMIN",
+    "Email": "info@dtcms.net",
+    "NormalizedEmail": "INFO@DTCMS.NET",
+    "EmailConfirmed": false,
+    "PasswordHash": "AQAAAAEAACcQAAAAEIIVfBoAbx7EGyOLtH4hZFyeFT819ygZx7ROkladOIfjcsKvMn7PfJCIWApFEtvsSA==",
+    "SecurityStamp": "XUIGJZRH36KYEUGW3MFUXHQW73OC4C77",
+    "ConcurrencyStamp": "72420059-828a-4eb1-b27e-3dcf60416724",
+    "PhoneNumber": "13800138000",
+    "PhoneNumberConfirmed": false,
+    "TwoFactorEnabled": false,
+    "LockoutEnd": null,
+    "LockoutEnabled": true,
+    "AccessFailedCount": 0,
+    "Status": 0
+  }
+]

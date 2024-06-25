@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Id": 1,
+    "Type": 2,
+    "CallIndex": "usercode",
+    "TemplateId": "usercode",
+    "Title": "手机验证码",
+    "Content": "{\"code\":\"{code}\",\"valid\":\"{valid}\"}",
+    "IsSystem": 0,
+    "UpdateTime": null
+  },
+  {
+    "Id": 2,
+    "Type": 1,
+    "CallIndex": "usercode",
+    "TemplateId": null,
+    "Title": "您的邮箱验证码",
+    "Content": "您本次的邮箱验证码为{code}，{valid}分钟内有效。本邮件来自于{webname}，请勿回复！",
+    "IsSystem": 0,
+    "UpdateTime": null
+  }
+]

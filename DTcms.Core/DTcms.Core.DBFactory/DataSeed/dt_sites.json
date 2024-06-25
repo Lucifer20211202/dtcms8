@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "default",
+    "DirPath": "main",
+    "Title": "默认站点",
+    "Logo": null,
+    "IsDefault": 1,
+    "Company": "深圳市动力启航软件有限公司",
+    "Address": "深圳市宝安区西乡街道九围新村4区217-3幢303室",
+    "Tel": "13800138000",
+    "Email": "info@dtcms.net",
+    "Crod": "粤ICP备11064298号",
+    "Copyright": "版权所有 © 2009-2024 深圳市动力启航软件有限公司 All Rights Reserved.",
+    "SeoTitle": "DTcms网站管理系统 - 动力启航_开源cms_NetCore开源cms_vue开源cms",
+    "SeoKeyword": "动力启航,DTCMS系统,ASP.NETCore开源,开源CMS,网站管理系统,互联网开发",
+    "SeoDescription": "让更多的人分享互联网开发技术",
+    "SortId": 99,
+    "AddBy": "admin",
+    "AddTime": "2024-04-01 09:30:54"
+  }
+]

@@ -1,0 +1,15 @@
+﻿[
+  {
+    "Id": 1,
+    "Title": "普通会员",
+    "Grade": 0,
+    "Amount": 0,
+    "Exp": 0,
+    "IsUpgrade": 1,
+    "IsDefault": 1,
+    "IsPaid": 0,
+    "Status": 0,
+    "AddBy": "admin",
+    "AddTime": "2024-4-1 00:00:00"
+  }
+]

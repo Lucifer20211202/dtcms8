@@ -1,0 +1,63 @@
+<template>
+	<div ref="divRef">
+		<el-form ref="formRef" :model="props.modelValue" :rules="props.rules" :label-position="datas.position" :label-width="props.labelWidth">
+			<el-tabs v-model="datas.activeName" type="card">
+				<slot></slot>
+			</el-tabs>
+		</el-form>
+	</div>
+</template>
+
+<script setup>
+	import { ref,reactive,nextTick,onMounted } from "vue"
+	//定义REF
+	const formRef = ref(null)
+	const divRef = ref(null)
+	//接收props传值
+	const props = defineProps({
+		modelValue: {
+			type: Object,
+			default: null,
+		},
+		rules: {
+			type: Object,
+			default: null,
+		},
+		labelWidth: {
+			type: String,
+			default: '120px',
+		},
+		activeName: {
+			type: String,
+			default: null,
+		}
+	})
+	//定义组件属性
+	const datas = reactive({
+		activeName: props.activeName,
+		position: 'right'
+	})
+	
+	//暴露组件方法
+	defineExpose({
+		form: formRef
+	})
+	
+	//页面加载完成事件
+	onMounted(() => {
+		nextTick(() => {
+			const resizeObserver = new ResizeObserver(entries => {
+				entries.forEach(entry => {
+					//console.log('DIV宽度变化:', entry.target.offsetWidth)
+					if(entry.target.offsetWidth < 400) {
+						datas.position = 'top'
+					} else {
+						datas.position = 'right'
+					}
+				})
+			})
+			resizeObserver.observe(divRef.value)
+		})
+	})
+	
+</script>
